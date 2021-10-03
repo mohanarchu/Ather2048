@@ -8,9 +8,7 @@ import android.os.Bundle
 import java.lang.IllegalArgumentException
 import java.util.*
 
-/**
- * Created by raduetsya on 3/14/14.
- */
+
 class GameGrid(var sizeX: Int, var sizeY: Int, var scoreInterface: ScoreInterface) {
     var rand = Random()
     enum class DIRECTION {

@@ -20,9 +20,6 @@ import android.graphics.Rect
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-/**
- * Created by raduetsya on 3/18/14.
- */
 class DefaultTileView(context: Context, var roundAngleSize: Int) : TileView {
     var tilePaint = Paint()
     var tempRect = RectF()

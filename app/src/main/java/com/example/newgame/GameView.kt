@@ -12,9 +12,6 @@ import com.example.newgame.GameGrid.DIRECTION
 import com.example.newgame.GameGrid.GAMESTATE
 import java.util.*
 
-/**
- * Created by raduetsya on 3/14/14.
- */
 class GameView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
     var mainRect: RectF? = null
     var mainRectPaint = Paint()
